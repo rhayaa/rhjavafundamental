@@ -1,4 +1,4 @@
-package com.juaracoding.testharian.praktikum1;/*
+package com.juaracoding.rhjavafundamental.testharian.praktikum1;/*
 IntelliJ IDEA 2022.3.1 (Community Edition)
 Build #IC-223.8214.52, built on December 20, 2022
 @Author Rhay Riswan Hadiyanto
@@ -31,10 +31,9 @@ public class Praktikum1 {
             intConvert = chInput;
 
             if(
-                    (intConvert>=48 && intConvert<=57) ||           //ASCII angka
-                            (intConvert>=32 && intConvert<=64)||            //ASCII karakter
+                            (intConvert>=32 && intConvert<=64)||            //ASCII angka dan karakter
                             (intConvert>=65 && intConvert<=90)              //ASCII huruf besar
-//                  (intConvert>=97 && intConvert<=122)             //ASCII huruf kecil
+
             ){
 
                 intHasil = intHasil + intConvert;   //menghitung hasil kalkulasi yang sudah di convert
