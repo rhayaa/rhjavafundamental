@@ -18,7 +18,7 @@ public class Praktikum1 {
         Scanner scanner = new Scanner(System.in);
         String strInput = ""; // variabel input user
         char chInput = 'a';   // variabel penampung karakter
-        int intConvert = 0;   // variabel manipulasi dari char
+        int intconvert = 0;   // variabel manipulasi dari char
         int intHasil = 0;     // variabel hasil
 
 //        Input User kata yang mau di hitung
@@ -28,15 +28,15 @@ public class Praktikum1 {
 //        looping proses pengecekan String untuk di convert ke char
         for (int i = 0; i < strInput.length(); i++){
             chInput = strInput.charAt(i); //mengubah string menjadi char
-            intConvert = chInput;
+            intconvert = chInput;
 
             if(
-                            (intConvert>=32 && intConvert<=64)||            //ASCII angka dan karakter
-                            (intConvert>=65 && intConvert<=90)              //ASCII huruf besar
+                            (intconvert>=32 && intconvert<=64)||            //ASCII angka dan karakter
+                            (intconvert>=65 && intconvert<=90)              //ASCII huruf besar
 
             ){
 
-                intHasil = intHasil + intConvert;   //menghitung hasil kalkulasi yang sudah di convert
+                intHasil = intHasil + intconvert;   //menghitung hasil kalkulasi yang sudah di convert
             }
 
         }
