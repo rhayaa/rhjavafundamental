@@ -14,7 +14,6 @@ public class Praktikum2 {
         /*
         mencari nilai rata - rata
          */
-
         Scanner scrInput;
         scrInput = new Scanner(System.in);
         int intInput = 0;           //variable inputan
@@ -30,13 +29,12 @@ public class Praktikum2 {
                 intInput = scrInput.nextInt();
 
                     floSum = floSum + intInput;        //proses mencari nilai total
-                    floAverage = floSum /4;             //proses mencari nilai rata rata
+                    floAverage = floSum /5;             //proses mencari nilai rata rata
             }
         }catch (Exception e){   // handling arror sebagai output dan hasil
 //            System.out.println("Nilai Int Tampung "+ floSum);     //output nilai total
             System.out.println("Nilai Rata Rata "+ floAverage);   //output nilai rata rata
         }
-
 
     }
 
