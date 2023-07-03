@@ -16,7 +16,8 @@ public class Praktikum2 {
          */
         Scanner scrInput;
         scrInput = new Scanner(System.in);
-        int intInput = 0;           //variable inputan
+        int i = 1;
+        int intInput = 1;           //variable inputan
         float floSum = 0;           //variable total
         float floAverage = 0;       //variable rata rata
 
@@ -24,12 +25,13 @@ public class Praktikum2 {
         handling agar user tidak memasukan inputan selain angka
          */
         try {
-            while (true) {      //Perulangan untuk perhitungan inputan angka
+            while (i <= intInput) {      //Perulangan untuk perhitungan inputan angka
                 System.out.print("Masukan Angka :");    //inputan user
                 intInput = scrInput.nextInt();
 
                     floSum = floSum + intInput;        //proses mencari nilai total
-                    floAverage = floSum /5;             //proses mencari nilai rata rata
+                    floAverage = floSum /i;             //proses mencari nilai rata rata
+                i++;
             }
         }catch (Exception e){   // handling arror sebagai output dan hasil
 //            System.out.println("Nilai Int Tampung "+ floSum);     //output nilai total
