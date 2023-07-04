@@ -7,29 +7,30 @@ Created on 03/07/2023 21:03
 @Last Modified 03/07/2023 21:03
 Version 1.0
 */
-
+import java.util.Scanner;
 public class ProgramUpperLowerCase {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+        char charCastAscii = 'a';
 
-        int intCastAscii = 'D';
-        if(intCastAscii>=65 && intCastAscii<=90  ||  intCastAscii>=97 && intCastAscii<=122 )
-        {
-            System.out.println("ya Huruf..");
-            if (intCastAscii>=65 && intCastAscii<=90)
-            {
-                System.out.println("INI ADALAH HURUF KAPITAL");
+        System.out.print("Masukan 1 digit karakter :");
+        charCastAscii = scanner.next().charAt(0);
+
+
+            if (charCastAscii >= 65 && charCastAscii <= 90 || charCastAscii >= 97 && charCastAscii <= 122) {
+                System.out.println("ya Huruf..");
+                if (charCastAscii >= 65 && charCastAscii <= 90) {
+                    System.out.println("INI ADALAH HURUF KAPITAL");
+                }
+                else {
+                    System.out.println("ini adalah huruf kecil");
+                }
             }
-            else
-            {
-                System.out.println("ini adalah huruf kecil");
+            else {
+                System.out.println("ini bukan huruf");
             }
-        }
-        else
-        {
-            System.out.println("ini bukan huruf");
-        }
 
     }
 }
