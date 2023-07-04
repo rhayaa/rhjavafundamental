@@ -16,10 +16,9 @@ public class ConsOne {
     // - Tanpa Parameter
     // - Dengan Parameter
 
-    ConsOne consOne = new ConsOne();
     private int intUmur ;
 
-    private String strInput;
+    private String strNama;
 
 
     public ConsOne() {
