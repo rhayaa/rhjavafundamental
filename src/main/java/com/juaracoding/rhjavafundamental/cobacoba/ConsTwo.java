@@ -14,7 +14,7 @@ public class ConsTwo {
 
         ConsOne consone = new ConsOne();
 
-//        System.out.println(kelasOne.getIntData());
+        System.out.println(consone.getIntUmur());
 
     }
 
