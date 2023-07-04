@@ -16,6 +16,7 @@ public class ConsOne {
     // - Tanpa Parameter
     // - Dengan Parameter
 
+    ConsOne consOneOne = new ConsOne();
     private int intUmur ;
 
     private String strInput;
