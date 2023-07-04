@@ -13,7 +13,7 @@ public class ProgramUpperLowerCase {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        char charCastAscii = 'a';
+        Character charCastAscii = 'a';
 
         System.out.print("Masukan 1 digit karakter :");
         charCastAscii = scanner.next().charAt(0);
