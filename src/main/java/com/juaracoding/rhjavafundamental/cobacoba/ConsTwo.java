@@ -12,7 +12,9 @@ public class ConsTwo {
 
     public static void main(String[] args) {
 
-        ConsTwo constwo = new ConsTwo();
+        ConsOne consone = new ConsOne();
+
+//        System.out.println(kelasOne.getIntData());
 
     }
 

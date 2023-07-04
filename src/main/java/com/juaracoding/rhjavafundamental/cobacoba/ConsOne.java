@@ -29,5 +29,9 @@ public class ConsOne {
         this.intUmur = intUmur;
     }
 
+    public int getIntUmur() {
+        return intUmur;
+    }
+
 
 }
