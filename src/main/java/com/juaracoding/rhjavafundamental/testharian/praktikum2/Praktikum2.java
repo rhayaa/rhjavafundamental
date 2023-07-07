@@ -7,6 +7,7 @@ Created on 27/06/2023 22:46
 @Last Modified 27/06/2023 22:46
 Version 1.0
 */
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Praktikum2 {
     public static void main(String[] args) {
@@ -14,8 +15,9 @@ public class Praktikum2 {
         /*
         mencari nilai rata - rata
          */
-        Scanner scrInput;
-        scrInput = new Scanner(System.in);
+        Scanner scrInput = new Scanner(System.in);
+
+
         int i = 1;
         int intInput = 1;           //variable inputan
         float floSum = 0;           //variable total
@@ -25,12 +27,13 @@ public class Praktikum2 {
         handling agar user tidak memasukan inputan selain angka
          */
         try {
-            while (i <= intInput) {      //Perulangan untuk perhitungan inputan angka
+            while (true) {      //Perulangan untuk perhitungan inputan angka
                 System.out.print("Masukan Angka :");    //inputan user
                 intInput = scrInput.nextInt();
 
                     floSum = floSum + intInput;        //proses mencari nilai total
                     floAverage = floSum /i;             //proses mencari nilai rata rata
+
                 i++;
             }
         }catch (Exception e){   // handling arror sebagai output dan hasil

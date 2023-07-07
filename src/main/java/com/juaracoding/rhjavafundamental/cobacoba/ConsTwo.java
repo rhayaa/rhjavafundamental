@@ -7,7 +7,7 @@ Created on 04/07/2023 20:01
 @Last Modified 04/07/2023 20:01
 Version 1.0
 */
-
+import java.util.Random;
 public class ConsTwo {
 
     public static void main(String[] args) {
@@ -15,6 +15,8 @@ public class ConsTwo {
         ConsOne consone = new ConsOne();
 
         System.out.println(consone.getIntUmur());
+
+
 
     }
 
